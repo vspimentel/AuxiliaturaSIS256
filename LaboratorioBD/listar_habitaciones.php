@@ -22,7 +22,7 @@
             <td><?php echo $habitaciones["espacio"]; ?></td>
             <td><?php echo $habitaciones["precio"]; ?></td>
             <td><a href="editar_habitaciones_form.php?id=<?php echo $habitaciones["id"] ?>">Editar</a></td>
-            <td><a href="eliminar_habitaciones.php?id=<?php echo $habitaciones["id"] ?>">Eliminar</a></td>
+            <td><a href="eliminar_habitacion.php?id=<?php echo $habitaciones["id"] ?>">Eliminar</a></td>
         </tr>
     <?php } ?>
 </table>

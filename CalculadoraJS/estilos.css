@@ -1,0 +1,47 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.calculadora{
+    margin-top: 100px;
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    width: min-content;
+    flex-direction: column;
+}
+
+.pantalla{
+    border: 1px solid black;
+    display: flex;
+    width: 300px;
+    height: 70px;
+    padding: 10px;
+}
+
+.teclado{
+    width: 100%;
+}
+
+.fila{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton{
+    border: 1px solid black;
+    padding: 10px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover{
+    background-color: #ccc;
+    cursor: pointer;
+}

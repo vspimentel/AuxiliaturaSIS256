@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="insertar_usuario.php" method="post" enctype="multipart/form-data">
+        <label for="correo">Correo</label>
+        <input type="email" name="correo">
+        <br>
+        <label for="contrasena">Contraseña</label>
+        <input type="password" name="contrasena">
+        <br>
+        <label for="nombres">Nombres</label>
+        <input type="text" name="nombres">
+        <br>
+        <label for="apellidos">Apellidos</label>
+        <input type="text" name="apellidos">
+        <br>
+        <label for="rol">Administrador:</label>
+        <input type="checkbox" name="rol">
+        <br>
+        <input type="submit" value="Insertar">
+    </form>
+</body>
+</html>

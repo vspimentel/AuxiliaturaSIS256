@@ -39,7 +39,7 @@
         <label for="precio">Precio</label>
         <input type="number" name="precio" value="<?php echo $habitacion["precio"]; ?>" >
         <br>
-        <input type="submit" value="Insertar">
+        <input type="submit" value="Editar">
     </form>
 </body>
 </html>
