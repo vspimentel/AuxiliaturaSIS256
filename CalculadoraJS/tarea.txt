@@ -1,0 +1,2 @@
+Hacer funcionar las teclas de potencia, raiz, logaritmo y factorial usando la calculadora
+y el metodo que se uso para resolverlo  
