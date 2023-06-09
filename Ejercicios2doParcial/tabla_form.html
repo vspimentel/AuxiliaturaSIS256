@@ -1,0 +1,30 @@
+<form action="javascript:createTable()" class="form_tabla">
+    <label for="tablade">Tabla de:</label>
+    <input type="number" id="tabla">
+    <div style="display: flex; flex-direction: column;">
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <input type="radio" name="operacion" value="sumar">
+            <label for="suma">Suma</label>
+        </div>
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <input type="radio" name="operacion" value="restar">
+            <label for="resta">Resta</label>
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: column;">
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <input type="radio" name="operacion" value="multiplicar">
+            <label for="multiplicacion">Multiplicacion</label>
+        </div>
+        <div style="display: flex; align-items: center; gap: 5px;">
+            <input type="radio" name="operacion" value="dividir">
+            <label for="resta">Division</label>
+        </div>
+    </div>
+    <label for="tablade">Hasta el:</label>
+    <input type="number" name="hasta" id="hasta">
+    <input type="submit" value="Tabla">
+</form>
+<div id="tablas">
+    
+</div>
