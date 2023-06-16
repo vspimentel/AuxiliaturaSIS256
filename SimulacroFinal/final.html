@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen final</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="contenedor">
+        <div class="header">
+            <div style="display: flex; align-items: center;">
+                <div><img src="images/usfx.png"></div>
+                <div>
+                    <div style="color: red; font-size: 20px; font-weight: bold;">Universidad de San Francisco Xavier</div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <div style="color: blue; font-weight: bold;">Facultad de Tecnología</div>
+                        <div style="color: red; font-weight: bold;">Sucr<span style="color: yellow;">e-Bol</span><span style="color: green;">ivia</span></div>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; gap: 50px; justify-content: left; width: 100%;">
+                <div>Carrera Ing. de Sistemas/Ciencias de la Computación</div>
+                <div>Verano 2022</div>
+                <div id="nombre">Nombre:</div>
+            </div>
+            <div style="display: flex; gap: 200px; justify-content: left; width: 100%;">
+                <div id="fecha">Hoy es:</div>
+                <div id="cu">CU:</div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="button" onclick="pregunta1()">Index</div>
+            <div class="button" onclick="pregunta2()">Pregunta 2</div>
+            <div class="button" onclick="pregunta3()">Pregunta 3</div>
+            <div class="button" onclick="pregunta4()">Pregunta 4</div>
+            <div class="button" onclick="pregunta5()">Pregunta 5</div>
+        </div>
+        <div class="content">
+            <div id="contenido">
+                
+            </div>
+            <div id="resultado"></div>
+        </div>
+        <div class="footer">
+            <div>Examen Verano SIS 256</div>
+            <div>08-02-23</div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
